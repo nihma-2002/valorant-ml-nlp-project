@@ -77,6 +77,8 @@ This makes the dataset behave more like **real ranked gameplay**, rather than cl
 
 ## Project Structure
 
+```
+
 valorant-ml-nlp-project/
 │
 ├── data/
@@ -93,6 +95,7 @@ valorant-ml-nlp-project/
 ├── README.md
 └── requirements.txt
 
+```
 
 ---
 
