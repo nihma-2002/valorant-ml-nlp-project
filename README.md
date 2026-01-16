@@ -193,6 +193,8 @@ Rather than focusing only on accuracy, the project emphasizes **correct problem 
 
 ## 🎮 Streamlit Demo
 
+![Streamlit Demo](assets/streamlit_demo.png)
+
 This project includes an interactive **Streamlit application** that allows users to input player performance metrics and receive:
 
 - Predicted **agent role** based on playstyle and performance
