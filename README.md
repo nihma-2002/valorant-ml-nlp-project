@@ -193,8 +193,6 @@ Rather than focusing only on accuracy, the project emphasizes **correct problem 
 
 ## 🎮 Streamlit Demo
 
-![Streamlit Demo](assets/streamlit_demo.png)
-
 This project includes an interactive **Streamlit application** that allows users to input player performance metrics and receive:
 
 - Predicted **agent role** based on playstyle and performance
@@ -202,8 +200,55 @@ This project includes an interactive **Streamlit application** that allows users
 
 The Streamlit app demonstrates how the trained machine learning model can be used in a real-world, user-facing setting.
 
-### ▶️ How to Run Locally
+![Streamlit Demo](assets/streamlit_demo.png)
 
+---
+
+## ▶️ Run the Streamlit App Locally
+
+Follow these steps to run the interactive Streamlit demo on your machine:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/nihma-2002/valorant-ml-nlp-project.git
+cd valorant-ml-nlp-project
+
+### 2. Create and activate a virtual environment
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# macOS / Linux
+source venv/bin/activate
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+
+### 4. Run the streamlit app
+```bash
 streamlit run app/app.py
+
+This app will run automatically at browser : http://localhost:8501
+
+---
+
+## 🚀 Deployment Notes
+
+The Streamlit application is structured to be easily deployable on platforms such as **Streamlit Community Cloud** or similar hosting services.
+
+### Deployment Readiness
+- The app loads a pre-trained machine learning model from the `models/` directory
+- All dependencies are listed in `requirements.txt`
+- The application follows a clear project structure suitable for deployment
+
+### Example Deployment Workflow
+1. Fork or clone this repository to your GitHub account
+2. Connect the repository to Streamlit Community Cloud
+3. Set the main file path as: app/app.py
+4. Deploy the application
+
+Once deployed, the app can be accessed via a public URL, allowing users to interact with the model without running the code locally.
+
