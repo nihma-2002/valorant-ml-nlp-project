@@ -167,6 +167,23 @@ Recommended Agents: Sage, Cypher, Killjoy
 
 ---
 
+## 🎮 Streamlit Demo
+
+This project includes an interactive **Streamlit application** that allows users to input player performance metrics and receive:
+
+- Predicted **agent role** based on playstyle and performance
+- Recommended **Valorant agents** aligned with the predicted role
+
+The Streamlit app demonstrates how the trained machine learning model can be used in a real-world, user-facing setting.
+
+### ▶️ How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
+
+---
+
 ## Future Improvements & Roadmap
 
 Planned enhancements include:
